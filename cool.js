@@ -1,10 +1,19 @@
-
-var i=0;
-setInterval(function(){
-    var titles=['important message', 'CLAIM YOUR FREE IPOD AND 500,000 ROBUX! NO CLICKBAIT NO VIRUS', 'You have won 100,000$ Click here to claim it!'];//add more titles if you want
-    if(i===titles.length) {
-        i=0;
-    }
-    document.title = titles[i];
-    i++;
-}, 5000);
+const titles = [
+    'important message',
+    'WIN FREE IPAD AND 5 MILLION ROBUX!',
+    'You won your 500,000$, CLICK HERE TO CLAIM IT!'
+  ]
+  
+  function changeTitles(titles){
+    // save an iterator in a closure
+    let ii = 0
+    // update is run at the start
+    return (function update() {
+      // change the title
+      document.querySelector('title').textContent = titles[(ii++ % titles.length)]
+      // queue the function to be called in 5 seconds
+      setTimeout(update, 5000)
+    })()
+  }
+  
+  changeTitles(titles)
