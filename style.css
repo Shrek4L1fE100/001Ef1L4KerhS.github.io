@@ -1,8 +1,16 @@
+body {
+    color:aliceblue;
+}
 p {
  font-family :cursive;
  text-align: left;
 }
 
 img {
-    float:left
+    float:left;
+    float:right;
+}
+
+h1 {
+    color:hotpink;
 }
