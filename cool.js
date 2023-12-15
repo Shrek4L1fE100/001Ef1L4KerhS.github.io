@@ -17,3 +17,8 @@ const titles = [
   }
   
   changeTitles(titles)
+
+
+  <audio id="sound1" src="clickb6-101soundboards.mp3" preload="auto"></audio>
+  <button onclick="document.getElementById('sound1').play();">Play
+  it</button>

@@ -1,5 +1,8 @@
 p {
- font-family :cursive
+ font-family :cursive;
+ text-align: left;
 }
 
-
+img {
+    float:left
+}
