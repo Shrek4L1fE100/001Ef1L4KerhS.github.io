@@ -8,9 +8,11 @@ p {
 
 img {
     float:left;
-    float:right;
 }
 
+HouseDogRight {
+    float:right;
+}
 h1 {
     color:hotpink;
 }
