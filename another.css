@@ -1,9 +1,14 @@
 ol {
     font-size: large;
-    color:aliceblue;
+    color:rgb(255, 0, 0)240, 240);
 }
 
 img {
     float:right;
 }
 
+p {
+    font-size: larger;
+    font-style: oblique;
+    color:darkgreen;
+}
