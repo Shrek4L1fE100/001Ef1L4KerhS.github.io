@@ -29,4 +29,7 @@ body {
      font-family: "Comic Sans MS";
  }
  
+ a:link {
+    text-decoration: none;
+}
  
