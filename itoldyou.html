@@ -8,7 +8,23 @@
 </head>
 
 <body>
-    <p style="background-image: url('dontclickpls/eyes.webp');">
+    <style>
+    @keyframes backgroundScroll {
+      from {
+        background-position: 0 0;
+      }
+
+      to {
+        background-position: 4000px 0;
+      }
+    }
+
+    body {
+      background-image: url('dontclickpls/eyes.webp');
+      -webkit-animation: backgroundScroll 900s linear infinite;
+      animation: backgroundScroll 900s linear infinite;
+    }
+ </style>
 
      
       
